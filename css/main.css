@@ -2400,7 +2400,16 @@ html.no-csstransitions .home-content__main {
     position: relative;
 }
 
-
+.s-shop {
+    padding-top: 16.2rem;
+    padding-bottom: 9rem;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(169,170,14,1) 35%, rgba(0,212,255,1) 100%);
+    background-size: 400% 400%;
+    -webkit-animation: gradientBG 10s ease infinite;
+	        animation: gradientBG 10s ease infinite;
+    color: #010507;
+    position: relative;
+}
 /* ------------------------------------------------------------------- 
  * ## services list
  * ------------------------------------------------------------------- */
